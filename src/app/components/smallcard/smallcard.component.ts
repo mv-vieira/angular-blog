@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'menu-smallcard',
+  selector: 'app-smallcard',
   templateUrl: './smallcard.component.html',
   styleUrl: './smallcard.component.css'
 })
