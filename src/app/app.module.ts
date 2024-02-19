@@ -5,16 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
-import { MenuBigcardComponent } from './components/menu-bigcard/menu-bigcard.component';
-import { MenuSmallcardComponent } from './components/menu-smallcard/menu-smallcard.component';
+import { BigcardComponent } from './components/menu-bigcard/bigcard.component';
+import { SmallcardComponent } from './components/smallcard/smallcard.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
     MenuTitleComponent,
-    MenuBigcardComponent,
-    MenuSmallcardComponent
+    BigcardComponent,
+    SmallcardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
