@@ -1,0 +1,23 @@
+
+.container__menu-bar ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.container__menu-bar ul li{
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.container__menu-bar a{
+  transition: 0.3s ease-in;
+}
+
+.container__menu-bar a:hover{
+  color: grey;
+}
+
+.container__menu-bar li span{
+  cursor: default;
+}
