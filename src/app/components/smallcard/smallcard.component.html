@@ -1,16 +1,15 @@
 <div class="container__small-card">
   <div class="container_small-card-content">
     <div class="small-card__photo">
-      <img
-        [src]="smallCardImage"
-        alt=""
-      />
+      <img [src]="smallCardImage" alt="" />
     </div>
     <div class="small-card__title">
-      <a href="#"><h1>{{ smallCardTitle }}</h1></a>
+      <a [routerLink]="['content', id]"
+        ><h1>{{ smallCardTitle }}</h1></a
+      >
     </div>
   </div>
 </div>
 <div class="container__small-card-row">
-  <hr>
+  <hr />
 </div>

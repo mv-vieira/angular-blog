@@ -15,6 +15,9 @@ cardTitle: string = "";
 @Input()
 cardDescription: string = "";
 
+@Input()
+id:string = "0";
+
 constructor(){
 
 }
